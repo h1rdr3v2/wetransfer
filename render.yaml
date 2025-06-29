@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: flask-app
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    envVars:
+      - key: EMAIL_SENDER
+        value: nwekee125@gmail.com
+      - key: EMAIL_PASSWORD
+        value: wkxefsuonoulinca
+      - key: EMAIL_RECEIVER
+        value:  maxwell202201@gmail.com
